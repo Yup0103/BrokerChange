@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   Box,
   Typography,
-  Grid,
   Card,
   CardContent,
   Button,
@@ -17,6 +16,7 @@ import {
   Alert,
   Snackbar,
 } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import {
   TrendingUp as TrendingUpIcon,
   Assignment as AssignmentIcon,
@@ -289,7 +289,7 @@ const Dashboard: React.FC = () => {
               </Box>
               
               <List sx={{ p: 0 }}>
-                {recentRequests.map((request, index) => (
+                {recentRequests.map((request: any, index: number) => (
                   <React.Fragment key={request.id}>
                     <ListItem sx={{ px: 0, py: 2 }}>
                       <ListItemAvatar>

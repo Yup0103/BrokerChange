@@ -4,7 +4,6 @@ import {
   Card,
   CardContent,
   Skeleton,
-  Grid,
   List,
   ListItem,
   ListItemAvatar,
@@ -15,6 +14,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
+import Grid from '@mui/material/Grid';
 
 interface SkeletonCardProps {
   height?: number;

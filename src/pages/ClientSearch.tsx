@@ -6,7 +6,6 @@ import {
   CardContent,
   TextField,
   Button,
-  Grid,
   Avatar,
   Chip,
   List,
@@ -24,6 +23,7 @@ import {
   Skeleton,
   CircularProgress,
 } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import {
   Search as SearchIcon,
   Person as PersonIcon,

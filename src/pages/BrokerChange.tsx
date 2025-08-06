@@ -13,7 +13,6 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
-  Grid,
   Alert,
   Chip,
   List,
@@ -26,6 +25,7 @@ import {
   DialogContent,
   DialogActions,
 } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import {
   PersonSearch as ClientIcon,
   SwapHoriz as BrokerIcon,

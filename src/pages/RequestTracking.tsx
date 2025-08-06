@@ -17,7 +17,6 @@ import {
   MenuItem,
   FormControl,
   InputLabel,
-  Grid,
   Avatar,
   IconButton,
   Collapse,
@@ -25,9 +24,9 @@ import {
   ListItem,
   ListItemText,
   ListItemIcon,
-
   Paper,
 } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import {
   Timeline,
   TimelineItem,

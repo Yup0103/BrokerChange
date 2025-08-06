@@ -107,7 +107,7 @@ class ErrorBoundary extends Component<Props, State> {
                 </Button>
               </Box>
 
-              {process.env.NODE_ENV === 'development' && this.state.errorInfo && (
+              {import.meta.env.DEV && this.state.errorInfo && (
                 <Box sx={{ mt: 3, textAlign: 'left' }}>
                   <Typography variant="h6" gutterBottom>
                     Debug Information
