@@ -23,7 +23,7 @@ import {
   Skeleton,
   CircularProgress,
 } from '@mui/material';
-import Grid from '@mui/material/Grid';
+import { Grid } from '@mui/material';
 import {
   Search as SearchIcon,
   Person as PersonIcon,

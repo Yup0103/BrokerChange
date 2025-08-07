@@ -16,7 +16,7 @@ import {
   Alert,
   Snackbar,
 } from '@mui/material';
-import Grid from '@mui/material/Grid';
+import { Grid } from '@mui/material';
 import {
   TrendingUp as TrendingUpIcon,
   Assignment as AssignmentIcon,

@@ -14,7 +14,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
-import Grid from '@mui/material/Grid';
+import { Grid } from '@mui/material';
 
 interface SkeletonCardProps {
   height?: number;
